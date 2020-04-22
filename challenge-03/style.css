@@ -5,6 +5,8 @@
   font-family: Roboto;
 }
 
+/* Main content starts */
+
 .container {
   background-color: #23424a;
   padding: 148px 0;
@@ -42,3 +44,47 @@ a {
   font-weight: bold;
   margin-top: 2rem;
 }
+
+/* Main content ends */
+
+/* secondary content starts */
+.wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.col {
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 2rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+  color: #87629a;
+}
+
+.col p {
+  color: #3a3a3a;
+}
+/* Secondary content ends */
+
+/* Tertiary content begins */
+.tertiary-content {
+  background-color: #136c72;
+}
+
+.tertiary-content h3,
+.tertiary-content p {
+  color: #fff;
+}
+/* Tertiary content ends */
