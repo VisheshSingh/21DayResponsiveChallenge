@@ -1,0 +1,40 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  background: #f3eed9;
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 1128px;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-content p {
+  text-transform: uppercase;
+  font-family: 'Roboto Light', sans-serif;
+  color: #222c2a;
+  letter-spacing: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.main-content h1 {
+  font-family: 'Playfair Display', serif;
+  color: #824936;
+  font-size: 3.75rem;
+}
