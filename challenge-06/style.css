@@ -139,3 +139,30 @@ header {
   color: #fff;
   background-color: #136c72;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 2rem;
+  }
+
+  .nav__list {
+    display: block;
+    padding: 0;
+  }
+
+  .nav__item {
+    margin: 0.5rem;
+    text-align: center;
+  }
+}
