@@ -104,3 +104,27 @@ main h2 {
   font-size: 1.25rem;
   font-family: 'Roboto Light', sans-serif;
 }
+
+@media (max-width: 600px) {
+  .main-content h1 {
+    font-size: 3rem;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .col,
+  .summary,
+  .img-container {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-top: 1rem;
+  }
+
+  .img-container {
+    margin: 1rem 0;
+  }
+}
